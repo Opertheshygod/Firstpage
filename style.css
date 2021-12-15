@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    margin-bottom: -16px;
+    max-width: 100%;
+    background-image: url(images/background.png);
+    background-size: 100%;
+}
+
+.header{
+    height: 50px;
+    background-color:rgb(44, 98, 153);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.zero-margin{
+    margin: 0 0 0 0;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+h1{
+    padding: 15px 0 15px 0;
+}
+
+.menu-icon{
+    display: inline-flex;
+    height: 50px;
+}
+
+.ul-header{
+    margin: 0px;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.li-header{
+    margin-right: -4px;
+    display: inline-block;
+    width: 25%;
+}
+
+.a-header{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 45px;
+    color:snow;
+}
+
+.li-header :hover{
+    text-decoration: underline;
+    color:powderblue;
+}
+
+.top{
+    margin-top: 35%;
+}
+
+.main{
+    background-color: linen;
+    max-width: 75%;
+    font-size: 20px;
+    margin-left: 12.5%;
+}
+
+main > p{
+    margin: 5px 50px 5px 50px;
+}
+
+.telegram-icon{
+    height: 45px;
+    width: 45px;
+    background-color:rgb(43, 153, 216);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 75px;
+    right: 50px;
+    text-align: center;
+}
+
+.telegram-img {
+    height: 30px;
+    margin-top: 4px;
+    margin-left: -2px;
+}
+
+.advantages{
+    margin: 15px 50px 15px 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.advantages-items{
+    display: inline-flex;
+    height: 150px;
+    margin: 0px 50px 0px 50px;
+}
