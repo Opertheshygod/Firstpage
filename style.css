@@ -98,3 +98,11 @@ main > p{
     height: 150px;
     margin: 0px 50px 0px 50px;
 }
+
+.advantages1{
+    display: inline-block;
+    width: 30%;
+    font-size: 20px;
+    min-width: 148px;
+}
+
